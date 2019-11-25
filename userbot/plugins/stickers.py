@@ -78,9 +78,9 @@ async def _(event):
             if is_a_s:
                 response = await silently_send_message(bot_conv, "/newanimated")
             else:
-                response = await silently_send_message(bot_conv, "/newpack")
+                response = await silently_send_message(bot_conv, "/addsticker")
             if "Yay!" not in response.text:
-                await event.edit(f"**FAILED**! @Stickers replied: {response.text}")
+                await event.edit(f"**FAILED**! @Stickers reped: {response.text}")
                 return
             response = await silently_send_message(bot_conv, packname)
             if not response.text.startswith("Alright!"):
