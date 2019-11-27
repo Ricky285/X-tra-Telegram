@@ -56,7 +56,7 @@ async def _(event):
 
         "`Cracked... 100%\n█████████Cracked ███████████ `",
 
-        `" I'd :- *************@Gmail.com \n        
+        "` I'd :- *************@Gmail.com \n        
 
             Password:-**********`",   
 
