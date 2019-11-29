@@ -26,7 +26,7 @@ async def _(event):
 
         
 
-            "`Connecting To Netflix Server  Server...`",
+            "`Connecting To Netflix Server...`",
 
             "`Finding accounts.`",
 
@@ -46,7 +46,7 @@ async def _(event):
 
             "`Hacking... 100%\n█████████HACKED███████████ `",
 
-            "`Account hacked...\n\n**Pay 2$ To me to get id and password** `"
+            "`Account hacked...\n\nPay 2$ To me to get I'd and password `"
 
         ]
 
