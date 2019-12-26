@@ -1,6 +1,6 @@
 """Make / Download Telegram Sticker Packs without installing Third Party applications
 Available Commands:
-.lund [Optional Emoji]
+.snatch [Optional Emoji]
 .packinfo
 .loda {for zip sticker pack}"""
 from telethon import events
@@ -29,7 +29,7 @@ from telethon.tl.types import (
 from uniborg.util import admin_cmd
 
 
-@borg.on(admin_cmd("lund ?(.*)"))
+@borg.on(admin_cmd("snatch ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
